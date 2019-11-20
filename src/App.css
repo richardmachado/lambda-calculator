@@ -1,22 +1,73 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #c00025;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding:10px;
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+margin-top: 25px;
+height: 109px;
+width: 410px;
+border-radius: 50px;
+color: white;
+background-color: #322c2d;
+box-shadow: 1px 1px #322c2d;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+padding-right: 8%;
+font-size: 5.0rem;
+margin-top:80px;
+}
+
+.logo{
+  margin-top:10px;
+  height:40px;
+  position:absolute;
+}
+.App{
+display:flex;
+width:420px;
+height:500px;
+margin:20px 0;
+}
+
+button{
+
+height:80px;
+width:80px;
+color:white;
+font-size:20px;
+border-radius:50%;
+padding:30px;
+margin:10px;
+box-shadow: 0px 5px black;
+}
+
+.specialNumbers{
+display:flex;
+flex-wrap:wrap;
+}
+.operators{
+display:flex;
+flex-direction:column;
+}
+.numberButton{
+background-color:	#12336d;
+}
+.operatorButton{
+background-color:#326F8B;
+}
+.specialButton{
+  background:#1d56a7;
+}
+.zero{
+border-radius:45%;
+width:180px;
+} 
